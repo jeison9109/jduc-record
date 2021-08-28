@@ -1,267 +1,319 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:'Open Sans Condensed', bold sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans Condensed", bold sans-serif;
 }
 
 body {
-   background-color:white;
+  background-color: white;
 }
 
 .pages {
-   color: rgb(7, 7, 7);
-   text-align: center;
-   font-size: 0.9rem;
-   margin-top: 20px;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 20px;
 }
 
-.video{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 300px;
-   margin-bottom: 15px;
-   padding-left: 30px;
-   padding-right: 30px;
-   
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.video2{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 300px;
-   padding-left: 30px;
-   padding-right: 30px;
-   
+.video2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 footer {
-   margin-top: 10.25rem;
-   background: #141618;
-   padding: 3.625rem 0;
-   text-align: center;
-   color: #fff;
- }
-
- .titulo{
-   text-shadow: 2px 2px;
-   font-family:'Open Sans Condensed', sans-serif;
-   font-size: larger;
-   font: 1.8em sans-serif;
- }
-
- .titulo-biografia{
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size: larger;
-    font: 1.5em sans-serif;
-    text-shadow: 2px 2px;
- }
-
- .titulo-contacto{
-   font-family:'Open Sans Condensed', sans-serif;
-   font-size: larger;
-   font: 1.5em sans-serif;
-   text-shadow: 2px 2px;
+  margin-top: 10.25rem;
+  background: #141618;
+  padding: 3.625rem 0;
+  text-align: center;
+  color: #fff;
 }
 
-.titulo-videos{
-   font-family:'Open Sans Condensed', sans-serif;
-   font-size: larger;
-   font: 1.5em sans-serif;
-   text-shadow: 2px 2px;
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: larger;
+  font: 1.8em sans-serif;
 }
 
-
-
-
- .parrafo p{
-
-   font-family:'Open Sans Condensed', bold sans-serif;
-   font-size: 1.5rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding-top: 40px;
-   text-align: center;
-   margin: 20px;
-   font: bold;
-   color: rgb(156, 155, 155);
-   
-  
+.titulo-biografia {
+  display: flex;
+  justify-content: center;
+  /* font-family: "Open Sans Condensed", sans-serif;*/
+  font-size: larger;
+  font: 1.5em sans-serif;
+  text-shadow: 1px 2px;
 }
 
-.parrafo2 p{
-   margin-top: 15px;
-   font-family:'Open Sans Condensed', bold sans-serif;
-   font-size: 1.5rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: rgb(12, 10, 10);
-   
-
+.titulo-contacto {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: larger;
+  font: 1.5em sans-serif;
+  text-shadow: 2px 2px;
 }
 
-.parrafo3 p{
-   margin-top: 15px;
-   font-family:'Open Sans Condensed', bold sans-serif;
-   font-size: 1.5rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: rgb(12, 10, 10);
-   
-
+.titulo-videos {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: larger;
+  font: 1.5em sans-serif;
+  text-shadow: 2px 2px;
 }
 
-
-.parrafo4 p{
-   margin-top: 15px;
-   font-family:'Open Sans Condensed', bold sans-serif;
-   font-size: 1.5rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: rgb(12, 10, 10);
-   
-
-}
-.parrafo5 p{
-   margin-top: 15px;
-   font-family:'Open Sans Condensed', bold sans-serif;
-   font-size: 1.5rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: rgb(12, 10, 10);
-   
-
-}
-.parrafo6 p{
-   margin-top: 15px;
-   font-family:'Open Sans Condensed', bold sans-serif;
-   font-size: 1.8rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: rgb(12, 10, 10);
-   
-
+.parrafo p {
+  font-family: "Open Sans Condensed", bold sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  text-align: center;
+  margin: 20px;
+  font: bold;
+  color: rgb(156, 155, 155);
 }
 
+.parrafo2 p {
+  margin-top: 15px;
+  font-family: "Open Sans Condensed", bold sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(12, 10, 10);
+}
+
+.parrafo3 p {
+  margin-top: 15px;
+  font-family: "Open Sans Condensed", bold sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(12, 10, 10);
+}
+
+.parrafo4 p {
+  margin-top: 15px;
+  font-family: "Open Sans Condensed", bold sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(12, 10, 10);
+}
+.parrafo5 p {
+  margin-top: 15px;
+  font-family: "Open Sans Condensed", bold sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(12, 10, 10);
+}
+.parrafo6 p {
+  margin-top: 15px;
+  font-family: "Open Sans Condensed", bold sans-serif;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(12, 10, 10);
+}
 
 /*SOCIAL FEED*/
 
-.twitter{
- margin-top: 40px;
-  
+h2 {
+  display: flex;
+
+  justify-content: center;
 }
 
-.twitter p{
-   font-size: 2rem;
+/*CONTAINER REDES SOCIALES TWITTER-FACEBOOK*/
+.flexbox-container {
+  margin-top: 50px;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
 }
 
-
-
-/*SECCION ARTE Y CULTURA*/
-
-.logo2 img{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-top-left-radius: 80px;
-      border-bottom-right-radius: 80px;
-      width: 180px;
-      height: 100px;
+.flexbox-container > div.Timeline {
+  width: 50%;
+  padding: 10px;
+  background: #fff;
 }
 
-.intro > .contenedor{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-  
-}
-
-.logo{
-   width: 100%;
-   max-width: 500px;
-}
-
-.logo img{
-   width: 100%;
-   border-radius: 20px 20px 20px 20px;
+.flexbox-container > div:first-child {
+  margin-right: 10px;
 }
 
 /*SECCION ARTE Y CULTURA*/
 
-.parrafo-1{
-   text-align: center;
-   padding: 20px;
-   max-width: 500px;
+.logo2 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  width: 180px;
+  height: 100px;
 }
 
-.parrafo-1 p:nth-child(1){
-   font-size: 1.5rem;
-   color: rgb(19, 19, 49);
-   padding-bottom: 10px;
-   border-bottom: 1px solid #a2a2a2;
+.intro > .contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.parrafo-1 h3{
-   padding-top: 15px;
-   padding-bottom: 15px;
-   font-size: 1.8rem;
+.logo {
+  width: 100%;
+  max-width: 500px;
 }
 
-.parrafo-1 p:nth-child(3){
-   font-size:1rem;
-   padding-bottom: 15px;
+.logo img {
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
 }
 
-.parrafo-1 p:nth-child(4){
-   font-size: 1rem;
-   padding-bottom: 20px;
+/*SECCION ARTE Y CULTURA*/
+
+.parrafo-1 {
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.parrafo-1 p:nth-child(1) {
+  font-size: 1.5rem;
+  color: rgb(19, 19, 49);
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.parrafo-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.parrafo-1 p:nth-child(3) {
+  font-size: 1rem;
+  padding-bottom: 15px;
+}
+
+.parrafo-1 p:nth-child(4) {
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.parrafo2 {
+  text-align: center;
+}
+
+.parrafo3 {
+  text-align: center;
+}
+
+.parrafo4 {
+  text-align: center;
+}
+
+.parrafo5 {
+  text-align: center;
 }
 
 /*FORMULARIO*/
 
-.contenedor-form{
-   display: flexbox;
-   align-items: center;
-   justify-content: center;
-   background-color: #adadad;
-   width:100%;
-   height: 400px;
-   margin: auto;
-   max-width: 500px;
-   border-radius: 20px 20px 20px 20px;
-   margin-top: 20px;
+input[type="text"],
+select,
+textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
-.contenedor-nombre{
-   font-size: 1.1rem;
-   padding-top: 45px;
+label {
+  margin-left: 15px;
 }
 
-.contenedor-correo{
-   font-size: 1.1rem;   
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
 }
 
-.contenedor-mensaje{ 
-   padding-top: 5px; 
-   font-size: 1.1rem;
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
 
-input[type=text] {
-   width: 80%;
-   padding: 12px 20px;
-   margin: 10px 0;
-   box-sizing: border-box;
-   border: none;
-  border-bottom: 2px solid rgb(17, 16, 16);
- }
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
 
- input[type=text]:focus {
-   background-color: lightblue;
- }
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
 
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
